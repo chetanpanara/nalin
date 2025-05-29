@@ -26,7 +26,7 @@ const HeroSection = () => {
             <h1 className="text-3xl sm:text-6xl lg:text-6xl xl:text-6xl font-bold leading-tight">
               Hii,I am Dr. Nalin K Pagi
               <br />
-              <span className="text-blue-500 typing-effect">
+              <span className="text-blue-400 typing-effect">
                 Family Farmer
               </span>
             </h1>

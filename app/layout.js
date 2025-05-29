@@ -1,4 +1,5 @@
 
+import Footer from "@/components/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <div className="pt-16" style={{ fontFamily: "Poppins, sans-serif" }}>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

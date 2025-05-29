@@ -15,21 +15,7 @@ const XIcon = ({ size = 20, className = "" }) => (
 );
 
 export default function Footer() {
-  const socialLinks = [
-    {
-      name: "Facebook",
-      icon: Facebook,
-      href: "https://facebook.com/yourprofile",
-    },
-    {
-      name: "Instagram",
-      icon: Instagram,
-      href: "https://instagram.com/yourprofile",
-    },
-    { name: "GitHub", icon: Github, href: "https://github.com/yourprofile" },
-    { name: "YouTube", icon: Youtube, href: "https://youtube.com/yourchannel" },
-    { name: "X (Twitter)", icon: XIcon, href: "https://x.com/yourprofile" },
-  ];
+  
 
   const currentYear = new Date().getFullYear();
 
@@ -43,21 +29,6 @@ export default function Footer() {
 
         {/* Social Media Icons */}
         <div className="flex items-center space-x-6">
-          {/* {socialLinks.map((social) => {
-            const IconComponent = social.icon;
-            return (
-              <Link
-                key={social.name}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
-                aria-label={social.name}
-              >
-                <IconComponent size={22} />
-              </Link>
-            );
-          })} */}
           <div className="text-gray-400 text-md text-center md:text-left">
             Developed by chetanpanara
           </div>

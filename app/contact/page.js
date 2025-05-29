@@ -74,8 +74,7 @@ const page = () => {
                 </p>
                 <div className="space-y-1">
                   <p className="block text-blue-400 hover:text-blue-300 font-medium transition-colors duration-200 text-sm">
-                    82, Karanpur, Po Kheradi Ta Bhiloda Dist. Arvalli
-                    Gujarat-383250
+                  Anand, Gujarat, India
                   </p>
                 </div>
               </div>

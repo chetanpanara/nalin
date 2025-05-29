@@ -71,9 +71,9 @@ export default function page() {
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <span className="text-gray-100">
-                    Gujarat University, Ahmedabad, Gujarat. <br />
+                    Gujarat University,Ahmedabad, Gujarat <br />
                     <small>
-                      B. Sc. Botany, St. Xavier’s College <br />
+                      Master’s degree in Botany, Department of Botany <br />{" "}
                       05/2011
                     </small>
                   </span>
@@ -81,10 +81,10 @@ export default function page() {
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <span className="text-gray-100">
-                    Gujarat University,Ahmedabad, Gujarat <br />
+                    Gujarat University, Ahmedabad, Gujarat. <br />
                     <small>
-                      Master’s degree in Botany, Department of Botany <br />{" "}
-                      05/2011
+                      B. Sc. Botany, St. Xavier’s College <br />
+                      03/2009
                     </small>
                   </span>
                 </li>

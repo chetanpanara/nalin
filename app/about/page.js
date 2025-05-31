@@ -92,6 +92,37 @@ export default function page() {
             </div>
           </div>
           <Services />
+
+          <section className="max-w-7xl mx-auto mb-12 mt-6 overflow-hidden flex flex-col md:flex-row items-center">
+            <div className="flex-1 p-4 md:p-12 text-left">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-tr from-white  via-green-400  to-green-900 bg-clip-text text-transparent mb-6">
+                Aqui Grower LLP
+              </h1>
+              <p className="text-md md:text-lg text-gray-300 mb-8 max-w-xl">
+                <b>AQUI GROWER LLP</b> is a dynamic and socially responsible
+                Limited Liability Partnership based in Ahmedabad, Gujarat,
+                India, established in January 2021. The organization is deeply
+                committed to sustainable agricultural practices and
+                environmental stewardship, focusing on providing for basic human
+                needs while promoting ecological balance and community
+                awareness.
+              </p>
+              <a
+                href="https://www.instagram.com/aqui_grower"
+                className="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg text-md transition-colors duration-200 shadow"
+              >
+                Instagram Follow Us
+              </a>
+            </div>
+
+            <div className="flex-1 flex items-center justify-center h-full w-full p-8">
+              <img
+                src="../img/logo.png"
+                alt="YouTube Hero"
+                className="max-w-xs rounded-full w-full shadow-2xl border border-gray-800 object-cover"
+              />
+            </div>
+          </section>
         </div>
       </section>
     </div>

@@ -23,13 +23,13 @@ export default function Footer() {
     <footer className="bg-gray-900 border-t border-gray-700 mt-16 py-6 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
         {/* Copyright Text */}
-        <div className="text-gray-400 text-md text-center md:text-left">
+        <div className="text-gray-300 text-md text-center md:text-left">
           © {currentYear} nalinkantibhaipagi , Inc. All rights reserved.
         </div>
 
         {/* Social Media Icons */}
         <div className="flex items-center space-x-6">
-          <div className="text-gray-400 text-md text-center md:text-left">
+          <div className="text-gray-300 text-md text-center md:text-left">
             Developed by chetanpanara
           </div>
         </div>

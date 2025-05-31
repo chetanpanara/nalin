@@ -26,7 +26,7 @@ const HeroSection = () => {
             <h1 className="text-3xl sm:text-6xl lg:text-6xl xl:text-6xl font-bold leading-tight">
               Hii,I am Dr. Nalin K Pagi
               <br />
-              <span className="text-blue-400 typing-effect">
+              <span className="text-green-400 typing-effect">
                 Family Farmer
               </span>
             </h1>
@@ -41,7 +41,7 @@ const HeroSection = () => {
 
             <a
               href={"/about"}
-              className="bg-sky-600 backdrop-blur-md hover:bg-sky-700 text-white font-semibold px-4 py-2 rounded-lg text-md transition"
+              className="bg-green-600 backdrop-blur-md hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg text-md transition"
             >
               About Me
             </a>
